@@ -1,8 +1,16 @@
-> Cmd starting for docker :
-docker compose up -d
+Cmd starting for docker :
+> docker compose up -d
 
-> Dowload projte for VCS :
-git remote add origine https://github.com/LincolmsDev/school.git
-git pull origine master
+init projet
+> git init
 
-> Warnig: Database is not dowload
+Dowload projte for VCS :
+> git remote add origine https://github.com/LincolmsDev/school.git
+
+push folder 
+> git pull origine master
+
+Warnig: Database is not dowload
+
+clear remote after 
+> git remote remove origin
