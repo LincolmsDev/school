@@ -1,0 +1,22 @@
+/* Générale */
+:root {
+    --black : hsl(0,0%,0%);
+    --white: hsl(0, 0%, 100%); 
+    --dark-gray: hsl(210, 9%, 13%);
+    --medium-gray: hsl(0, 0%, 17%);
+    --light-gray: hsl(0, 0%, 33%);
+    --dark-bleu: hsl(214, 83%, 84%);
+    --medium-bleu: hsl(214, 85%, 92%);
+    --light-bleu: hsl(0, 0%, 100%);
+    --color-red: #fa1e4e;
+    --size-title: 20px;
+    --size-description: 18px;
+    --size-link: 20px;
+    --font-bodoni: 'Bodini Moda', serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-bodoni);
+   
+}
