@@ -2,4 +2,4 @@
 docker compose up -d
 
 > Dowload projte for VCS :
-git remode add origine https://github.com/LincolmsDev/school.git
+git remote add origine https://github.com/LincolmsDev/school.git
