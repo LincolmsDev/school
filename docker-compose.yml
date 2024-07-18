@@ -4,7 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    volumes: lincolmsdev-php-apache
+      image : lincolmsdev-php-apache
+    volumes: 
       - ./src:/var/www/html/
     ports:
       - 80:80
